@@ -341,3 +341,4 @@ if uploaded_file is not None:
     tip_excel = calculate_output_excel(week, employee_names)
 
     st.download_button('Download', tip_excel, 'trinkgeld.xlsx')
+
