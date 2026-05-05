@@ -102,26 +102,7 @@ def decimal_from_hours(hours):
 # Read the input excel file and add any new employee names
 
 def get_employee_names(xl):
-    employee_names = [
-        "Alicia Anderson", "Emilie Appl", "Mina Aryal", "Nadine Aschenbrenner",
-        "Omar Massire Balde", "Acelya Basili", "Fabrizio Bellia", "Filippo Bieringer",
-        "Anna Sophie Blessing", "Sabullah Bullach", "Manuel Bär", "Nepomuk Böhm",
-        "Tom Colombo", "Annika Ebel", "Stina Ebel", "Aaron Eißner", "Jasmin Engelberger",
-        "Alicia Ekoos", "Paul Firmhofer", "Markus Fuchs", "Marie Gaschler", "Lisa Gierer",
-        "Falk Golla", "Dodo Goßner", "Ekaterina Grashchenko", "Laura Greidenweiß",
-        "Karen Gronbach", "Miriam Guggenberger", "Svenja Halamek", "Nicklas Herold",
-        "Katrin Hiller", "Marie Jaussi", "Kuda Kabylbekov", "Angela Knoll",
-        "Claudine-Sophie Kopetz", "Elina Kuldeva", "Philippe Leonpacher",
-        "Moritz Liederscheidt", "Marlene Lind", "Anton Machowski", "Marleen Mulzer",
-        "Simon Männlein", "Sarah-Michelle Müller", "Jannik Mülhaupt", 
-        "Okechulowu (Anselem) Ohaebism", "Philine Ostermayer", "Damiano Parziale",
-        "Alyah Pattis", "Luca Principi", "Reshimi Raj Aryal", "Lilian Reiner",
-        "Emilia Sachsen-Coburg", "Luca Sawallisch", "Pia Schmolly", "Kilian Schugsties",
-        "Seyed Mohammad", "Mauro Sirigu", "Matthias Strobel", "Tanja Stürhof",
-        "Luca Tegeder", "Fenny Tran", "Bent van Zon", "Charlotte von Schröder",
-        "Jana Wegenke", "Lilli Wittig", "Jennifer Wöhrlin", "Fabian Zink", "Anna Graf",
-        "Emelie Appl", "Açelya Basili", "Sabulla Bullach", "Okechulowu Ohaebsim", "Luca Principi co Bischoff"
-    ]
+    employee_names = []
 
     weekly_employee_names = xl.sheet_names
     weekly_employee_names.remove('Übersicht')
